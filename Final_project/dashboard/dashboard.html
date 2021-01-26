@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="dashb.css">
+</head>
+<body>
+    <div class="container">
+        <div class="menu btn-group" role="group" aria-label="Basic radio toggle button group">
+            <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+            <label class="btn btn-outline-primary" for="btnradio1">Главная</label>
+          
+            <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+            <label class="btn btn-outline-primary" for="btnradio2">Клиенты</label>
+          
+            <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+            <label class="btn btn-outline-primary" for="btnradio3">Карта</label>
+
+          </div>
+          <button  class="btn btn-light out">Выход</button>
+
+    </div>
+    
+    <div class="modals" id="modal">
+        <div class="modal-container">
+            <p>Вы действительно хотите удалить запись?</p>
+            <button class="yes" data-modal="push">Да</button>
+            <button class="close">Нет</button>
+        </div>
+    </div>
+
+    <div class="push" id="push">
+        <div class="push-container">
+            <p>Данные успешно удалены</p>
+            <span class="close">&times;</span>
+        </div>
+    </div>
+
+    <script src="script17.js"></script>
+</body>
+</html>

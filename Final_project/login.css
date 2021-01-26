@@ -1,0 +1,48 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height : 100%;
+    padding: 0;
+    margin: 0;
+}
+.content{
+    height: 100vh;
+    background-color:rgb(90, 88, 228);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: white;
+}
+.cartlog{
+    width: 30%;
+    padding: 3%;
+    background-color: white;
+}
+.but{
+    display: flex;
+    justify-content: space-between;
+}
+
+.side-link span {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.side-link span .side-img {
+    margin-right: 5px;
+}
+
+.cartreg{
+    width: 30%;
+    padding: 3%;
+    background-color: white;
+}
